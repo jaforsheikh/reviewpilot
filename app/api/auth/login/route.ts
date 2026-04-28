@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
-import clientPromise from "@/lib/mongodb";
+import getClientPromise from "@/lib/mongodb";
 import { createToken } from "@/lib/auth";
 
 export async function POST(req: Request) {
@@ -14,8 +14,8 @@ export async function POST(req: Request) {
       );
     }
 
-    const client = await clientPromise;
-    const db = client.db(process.env.MONGODB_DB);
+    const client = await getClientPromise();
+    const db = client.db(process.env.MONGODB_DB || "reviewpilot");
     const users = db.collection("users");
 
     const user = await users.findOne({ email });
@@ -56,7 +56,9 @@ export async function POST(req: Request) {
     });
 
     return response;
-  } catch {
+  } catch (error) {
+    console.error("LOGIN_ERROR:", error);
+
     return NextResponse.json(
       { message: "Something went wrong" },
       { status: 500 }
