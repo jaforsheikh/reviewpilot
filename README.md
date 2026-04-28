@@ -1,207 +1,103 @@
-🔥 এবার তোমার info add করে **professional, client-ready README** বানিয়ে দিচ্ছি—copy-paste করলেই GitHub premium look পাবে।
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=34&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=900&lines=ReviewPilot+AI;AI-Powered+Reputation+Management+SaaS;Analyze+Reviews+%7C+Generate+Replies+%7C+Grow+Trust" alt="Typing SVG" />
+
+<br/>
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-2563EB?style=for-the-badge&logo=typescript&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-10B981?style=for-the-badge&logo=mongodb&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-FFC107?style=for-the-badge&logo=framer&logoColor=black)
+
+</div>
 
 ---
 
 # 🚀 ReviewPilot AI
 
-### 🔥 AI-Powered Reputation Management SaaS
-
-> Turn customer reviews into business growth with intelligent automation, analytics, and AI-driven insights.
+> **ReviewPilot AI** is a premium full-stack SaaS platform that helps businesses analyze customer reviews, generate professional AI replies, track reputation score, and grow customer trust from one modern dashboard.
 
 ---
 
-## 🧠 Overview
+## ✨ Live Preview Concept
 
-**ReviewPilot AI** is a full-stack SaaS application built to help businesses manage, analyze, and respond to customer reviews efficiently.
+<div align="center">
 
-This platform combines:
+<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d42b-4505-b9ec-1dc0612f050d.gif" width="760" alt="Animated divider"/>
 
-* AI-powered automation
-* Real-time analytics
-* Clean SaaS dashboard UI
-* Secure authentication system
-
-👉 Designed for **business owners, agencies, and freelancers**
+</div>
 
 ---
 
-## ✨ Core Features
+## 🧠 What Problem Does ReviewPilot Solve?
 
-### 🤖 AI System
+Businesses lose trust when they:
 
-* Smart sentiment analysis (Positive / Neutral / Negative)
-* AI-powered review reply generator
-* Customer feedback insights
+- reply late to customer reviews
+- miss negative feedback
+- cannot understand customer sentiment
+- do not track reputation growth
+- manage reviews manually
 
-### 📊 Dashboard Analytics
+**ReviewPilot AI solves this with automation, AI analysis, and a clean SaaS dashboard.**
 
-* Reputation score tracking
-* Review growth visualization
-* Performance metrics
-* Interactive UI cards
+---
 
-### 📥 Review Inbox
+## 🔥 Core Features
 
-* Centralized review management
-* Organized feedback system
-* Priority-based alerts
+<table>
+<tr>
+<td width="50%">
 
-### 🔐 Authentication
+### 🤖 AI Review Analyzer
+Detects review sentiment:
+- Positive
+- Neutral
+- Negative
 
-* Secure login/register system
-* JWT-based authentication
-* Protected dashboard routes
-* MongoDB database integration
+</td>
+<td width="50%">
 
-### 🎨 Premium UI/UX
+### ✍️ AI Reply Generator
+Creates professional brand-safe replies for customer reviews.
 
-* Fully responsive (mobile + desktop)
-* Smooth animations (Framer Motion)
-* Glassmorphism + modern SaaS design
-* Clean developer-grade structure
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 📊 Reputation Dashboard
+Track:
+- average rating
+- review growth
+- AI replies
+- reputation score
+
+</td>
+<td width="50%">
+
+### 🔐 Secure Authentication
+Includes:
+- register
+- login
+- logout
+- protected dashboard
+- MongoDB user storage
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Frontend
-
-* Next.js (App Router)
-* TypeScript
-* Tailwind CSS
-* Framer Motion
-* Lucide Icons
-
-### Backend
-
-* Next.js API Routes
-* Node.js
-
-### Database
-
-* MongoDB Atlas
-
-### Auth & Security
-
-* JWT (jose)
-* bcrypt password hashing
-
----
-
-## ⚡ Getting Started
-
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/your-username/reviewpilot.git
-cd reviewpilot
-```
-
-### 2️⃣ Install Dependencies
-
-```bash
-npm install
-```
-
-### 3️⃣ Setup Environment
-
-Create `.env.local`
-
-```env
-MONGODB_URI=your_mongodb_uri
-MONGODB_DB=reviewpilot
-AUTH_SECRET=your_secret_key
-```
-
-### 4️⃣ Run Project
-
-```bash
-npm run dev
-```
-
-Open:
-
-```
-http://localhost:3000
-```
-
----
-
-## 🔑 Authentication Flow
-
-1. User registers → stored in MongoDB
-2. Password hashed with bcrypt
-3. JWT token generated
-4. Token saved in HTTP-only cookie
-5. Middleware protects dashboard
-
----
-
-## 📂 Project Structure
-
-```
-app/
- ├── api/auth/
- ├── dashboard/
- ├── login/
- ├── register/
- ├── components/
-
-lib/
- ├── mongodb.ts
- └── auth.ts
-```
-
----
-
-## 🚀 Future Improvements
-
-* OpenAI API integration (real AI responses)
-* Stripe payment system
-* Multi-user team dashboard
-* Notification system
-* SaaS subscription model
-
----
-
-## 🎯 Why This Project
-
-This project shows:
-
-✔ Full-stack SaaS development
-✔ Real authentication system
-✔ Clean UI/UX design
-✔ Production-ready architecture
-
-👉 Perfect for:
-
-* Portfolio showcase
-* Client projects
-* Freelancing
-* Job interviews
-
-
-# 👨‍💻 Author
-
-## **Md Jafar Ali Shaikh**
-
-💻 Full Stack Web Developer
-
-📧 Email: [jaforsheikh258@gmail.com](mailto:jaforsheikh258@gmail.com)
-📱 WhatsApp: +8801716506412
-
-🔗 LinkedIn:
-[https://www.linkedin.com/in/jafar-sheikh/](https://www.linkedin.com/in/jafar-sheikh/)
-
-🔗 Facebook:
-[https://www.facebook.com/Jafor.sheikh12](https://www.facebook.com/Jafor.sheikh12)
-
-
-## ⭐ Support
-
-If you like this project:
-
-⭐ Star this repo
-🍴 Fork it
-📩 Contact me for collaboration
-
+```txt
+Frontend    : Next.js, TypeScript, Tailwind CSS
+Animation   : Framer Motion, Lenis Smooth Scroll, GSAP ready
+Backend     : Next.js API Routes
+Database    : MongoDB Atlas
+Auth        : JWT, HTTP-only Cookie, bcryptjs
+Icons       : Lucide React
